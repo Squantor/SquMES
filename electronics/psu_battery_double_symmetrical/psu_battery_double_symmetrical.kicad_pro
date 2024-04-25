@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -56,7 +56,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|175895000|116450000|efe79bf0-f087-469c-9d23-b724c6cb7176|5d228d6d-fb03-4fe6-9bb3-4c2437ebf0b8",
+        "silk_edge_clearance|97790000|119640000|baf240b9-eab6-4487-9bd1-9f4bf6701f6e|04bb0977-5f49-4d42-abee-41db448002b5",
+        "silk_edge_clearance|97790000|81020000|baf240b9-eab6-4487-9bd1-9f4bf6701f6e|a234c5f5-b2d9-4aac-84a4-7a5a6cae2fbd"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
